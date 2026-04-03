@@ -4,40 +4,40 @@ import { Button } from "@/components/ui/button"
 
 const projects = [
   {
-    title: "Умный помощник по выборам",
-    category: "AI/ML и веб-разработка",
-    image: "/omgekeerdestemwijzer-banner.png",
+    title: "Коллекция «Уфа»",
+    category: "Авторские сумки · Уфа",
+    image: "/placeholder.jpg",
     description:
-      "AI-приложение для выборов. Пользователи задают вопросы о позициях партий и получают 100% фактические ответы из официальных программ с использованием RAG-технологии.",
-    url: "https://de-omgekeerde-stemwijzer.onrender.com/",
-    tags: ["Next.js", "AI/ML", "RAG", "TypeScript"],
+      "Самобытные модели от башкирских мастеров. Натуральная кожа с национальными орнаментами, ручная прошивка и уникальная фурнитура. Каждая сумка — произведение искусства.",
+    url: "#portfolio",
+    tags: ["Натуральная кожа", "Ручная работа", "Авторский дизайн"],
   },
   {
-    title: "Автомойка Tahsin",
-    category: "Веб-дизайн и разработка",
-    image: "/autopoetsbedrijf-tahsin-project.png",
+    title: "Коллекция «Петербург»",
+    category: "Авторские сумки · Санкт-Петербург",
+    image: "/placeholder.jpg",
     description:
-      "Профессиональный сайт для автомойки с 20-летним опытом. Полная презентация услуг, автомойки и гаража с современным адаптивным дизайном.",
-    url: "https://www.autopoetsbedrijftahsin.nl/",
-    tags: ["React", "Next.js", "Tailwind CSS"],
+      "Элегантные и утончённые модели в петербургском стиле. Классические формы, нейтральные оттенки, премиальная кожа. Для тех, кто ценит сдержанную роскошь.",
+    url: "#portfolio",
+    tags: ["Классика", "Премиум-кожа", "Элегантность"],
   },
   {
-    title: "Кадровое агентство CAN",
-    category: "Веб-разработка",
-    image: "/can-uitzendbureau-project.png",
+    title: "Коллекция «Москва»",
+    category: "Авторские сумки · Москва",
+    image: "/placeholder.jpg",
     description:
-      "Кадровое агентство с 30-летним опытом в садоводческом секторе. Сайт с обзором услуг и прямыми контактами для работодателей и соискателей.",
-    url: "https://canbv.nl/",
-    tags: ["Next.js", "React", "Tailwind CSS"],
+      "Динамичные и смелые модели от московских дизайнеров. Актуальные тренды, яркие цвета, современный крой. Для уверенных и стильных городских женщин.",
+    url: "#portfolio",
+    tags: ["Тренды", "Городской стиль", "Дизайнерские модели"],
   },
   {
-    title: "Портфолио Murat Sahin",
-    category: "Портфолио-сайт",
-    image: "/murat-sahin-portfolio.png",
+    title: "Индивидуальный заказ",
+    category: "Под ваш заказ",
+    image: "/placeholder.jpg",
     description:
-      "Профессиональное портфолио full-stack разработчика. Демонстрация проектов, навыков и опыта с современным минималистичным дизайном и темной темой.",
-    url: "https://murat-sahin-dev.vercel.app/",
-    tags: ["Next.js", "TypeScript", "Tailwind CSS", ".NET Core"],
+      "Создадим сумку вашей мечты: выберите форму, цвет, кожу и фурнитуру. Добавим гравировку или монограмму. Идеальный подарок или личный стиль — только для вас.",
+    url: "#contact",
+    tags: ["На заказ", "Гравировка", "Монограмма"],
   },
 ]
 
@@ -46,9 +46,9 @@ export function PortfolioSection() {
     <section id="portfolio" className="py-20 px-4 sm:px-6 lg:px-8">
       <div className="container mx-auto max-w-7xl">
         <div className="text-center mb-16">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 text-balance">Наше портфолио</h2>
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 text-balance">Наши коллекции</h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto text-pretty leading-relaxed">
-            Ознакомьтесь с подборкой наших последних проектов и узнайте, как мы помогаем бизнесу расти с помощью мощных цифровых решений.
+            Три города — три характера. Выбирайте сумку, которая отражает вашу индивидуальность, или закажите уникальную модель специально для вас.
           </p>
         </div>
 
@@ -71,7 +71,7 @@ export function PortfolioSection() {
                     className="gap-2"
                     onClick={() => window.open(project.url, "_blank")}
                   >
-                    Открыть проект <ExternalLink className="h-4 w-4" />
+                    Смотреть коллекцию <ExternalLink className="h-4 w-4" />
                   </Button>
                 </div>
               </div>

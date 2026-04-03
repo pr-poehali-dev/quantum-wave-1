@@ -31,13 +31,13 @@ export function Navbar() {
               О нас
             </a>
             <a href="#services" className="text-sm font-medium hover:text-primary transition-colors">
-              Услуги
+              Ассортимент
             </a>
             <a href="#portfolio" className="text-sm font-medium hover:text-primary transition-colors">
-              Портфолио
+              Коллекции
             </a>
             <a href="#pricing" className="text-sm font-medium hover:text-primary transition-colors">
-              Тарифы
+              Цены
             </a>
             <a href="#contact" className="text-sm font-medium hover:text-primary transition-colors">
               Контакты
